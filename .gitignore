@@ -1,0 +1,3 @@
+# Exclude specific JSON files
+/250randomjokesapi.json
+/tenrandom.json

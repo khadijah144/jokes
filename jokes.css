@@ -1,0 +1,72 @@
+/* font link */
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Snowburst+One&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* :root{
+    --background-color: #B4C7D6; 
+    --card-color: #DAE0E8;
+    --button-text-color: #D3DADC;
+    --button-color: #455763; 
+} */
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color: #B4C7D6;
+}
+
+.main-container{
+    background-color:  #DAE0E8;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+    padding: 50px 20px;
+    max-width: 100%;
+    width: 800px;
+    text-align: center;
+    margin-top: 15%;
+    margin-inline: auto;
+}
+
+h3{
+    /* color: rgba(69, 87, 99, 0.8); */
+    color: #B4C7D6;;
+    margin: 0;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    /* text-shadow: 
+        1px 1px 0 black, 
+       -1px -1px 0 black, 
+        1px -1px 0 black, 
+       -1px 1px 0 black; */
+}
+
+.joke{
+    font-size: 30px;
+    color: #455763;
+    line-height: 40px;
+    margin: 50px;
+    max-width: 600px;
+    margin-inline: auto;
+}
+
+.btn{
+    background-color: rgba(69, 87, 99, 1);
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+    color:  #D3DADC;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 14px 40px;
+}
+
+.btn:active{
+    transform: scale(.98);
+}
+
+.ri-emotion-laugh-fill{
+    margin-left: 4px;
+}
